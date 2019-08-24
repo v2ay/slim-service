@@ -1,0 +1,32 @@
+{
+    "name": "v2ay/slim-service",
+    "type": "library",
+    "description": "Slim PHP Framework",
+    "keywords": ["mvc","framework", "php", "slim"],
+    "homepage": "https://github.com/v2ay/slim",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "V2ay HUB",
+            "email": "v2ay.hub@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "V2ay\\Slim\\Service\\": "src/Service"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "swiftmailer/swiftmailer": "@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    }
+}

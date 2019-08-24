@@ -1,0 +1,6 @@
+/tests/fixtures/cache/
+/tests/fixtures/logs/
+/vendor/
+composer.lock
+composer.phar
+phpunit.xml
